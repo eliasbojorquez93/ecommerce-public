@@ -1,0 +1,28 @@
+/* CUSTOM SELECT */
+
+.form-field.select{
+    width: 70px;
+    height: 50px;
+    background: #FFFFFF;
+}
+.form-field.select>select{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    z-index: 2;
+}
+
+.select>i{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #cccccc;
+    z-index: 1;
+}

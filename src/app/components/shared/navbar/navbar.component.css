@@ -1,0 +1,24 @@
+nav{
+    height: 60px;
+    background-color: #FE6F61;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    /* STANDARD COLOR ON NAV */
+    color: #FFFFFF;
+}
+.sub-nav-bar{
+    background-color: #000000;
+}
+.logo{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav>.routes{
+    list-style: none;
+}
+
+nav>.routes>.route-md{
+    margin: 0px 10px;
+    cursor: pointer;
+}

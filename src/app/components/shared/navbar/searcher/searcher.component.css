@@ -1,0 +1,18 @@
+.searcher{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+}
+
+.searcher>.input-overlay-search{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DDD;
+    height: 50px;
+    outline: none;
+    font-size: 25px;
+}

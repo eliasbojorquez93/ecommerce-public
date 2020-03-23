@@ -1,0 +1,31 @@
+.main-filter{
+    width: 220px;
+    overflow: hidden;
+}
+
+.filter ul{
+    list-style: none;
+}
+
+.filter ul>li{
+    font-size: 12px;
+}
+
+.filter .label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #AAA;
+}
+
+.input-group-row{
+    width: 100%;
+}
+.input-group-row>input{
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+}

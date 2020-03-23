@@ -1,0 +1,9 @@
+<div class="card">
+  <div class="img-card">
+    <img [src]="product.img" alt="">
+  </div>
+  <div class="card-description sb">
+    <p class="name">{{ product.name | slice:0:30 }}...</p>
+    <p class="price">{{ product.price | currency }}</p>
+  </div>
+</div>

@@ -1,0 +1,95 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Naruto Uzumaki figura edicion especial",
+        "price": 2350,
+        "img": "./assets/img/06.jpg",
+        "description": "The popular Naruto Uzumaki Six Paths G.E.M. figure is back with a new production run!\n\nA great item for Naruto fans! Don't miss out a second time!",
+        "categoriesId": 3
+      },
+      {
+        "id": 2,
+        "name": "Cooler Dragon Ball Z - Edicion especial",
+        "price": 3400,
+        "img": "./assets/img/05.jpg",
+        "description": "The Chogekisen EXTRA BATTLE of fixed-pose figures features super-cool sculpting to capture dynamic and dramatic action scenes!\n\nCOOLER is rendered in awesome form with an evocative backdrop featuring translucent parts that accentuate the action! A special stage and effects are attached to the figure.",
+        "categoriesId": 3
+      },
+      {
+        "id": 3,
+        "name": "Naofumi Nenderoid - Tate no Yuusha",
+        "price": 950,
+        "img": "./assets/img/03.jpg",
+        "description": "\"I'll protect them, come what may!\"\n\nFrom the anime series \"The Rising of the Shield Hero\" comes a Nendoroid of Shield Hero! He comes with three face plates including his sulking standard expression, his ghastly combat expression and his crying expression. Optional parts include his Small Shield, the Chimera Viper Shield, the Shield of Rage II and the Air Strike Shield. An Orange Balloon, fond of gnawing on the Shield Hero, is included as well.",
+        "categoriesId": 2
+      },
+      {
+        "id": 4,
+        "name": "ArtFx Figura de Ochiako Urara",
+        "price": 1500,
+        "img": "./assets/img/01.jpg",
+        "description": "The latest character from the hit anime My Hero Academia to join Kotobukiya’s ARTFX Jline is Ochaco Uraraka!\n\nThe ARTFX J line strives to bring characters from popular anime old and new to their fansthroughout the world. This series of 1/8 scale statues brings to life the aspiring heroes of My Hero Academia at their best, in the moments when they face off against a “villain.”\n\nOchaco’s sculpting and posing show off her “Zero Gravity” Quirk, with playful, buoyant detail. The statue also includes interchangeable parts to display her with and without her helmet. Display Ochaco alongside her classmates, Izuku Midoriya, Katsuki Bakugo, and Shoto Todoroki to recreate the world of My Hero Academia.",
+        "categoriesId": [4, 5]
+      },
+      {
+        "id": 5,
+        "name": "Figura de la serie Slime - no se su nombre",
+        "price": 900,
+        "img": "./assets/img/02.jpg",
+        "description": "\"Got a problem with Slimes?\"\n\nFrom the popular anime series \"That Time I Got Reincarnated as a Slime\" comes a chibi-style figure of Rimuru Tempest!",
+        "categoriesId": 2
+      },
+      {
+        "id": 6,
+        "name": "Megumin Figma - Kono Subarashi Sekai Ni Syukufuku Wo! 2",
+        "price": 1700,
+        "img": "./assets/img/07.jpg",
+        "description": "\"My name is Megumin!\"\n\nFrom the anime series \"KONO SUBARASHII SEKAI NI SYUKUFUKU WO! 2\" comes a figma of the Explosion Arch-Wizard, Megumin!\n\nThe smooth yet posable figma joints allow you to act out a variety of different scenes.",
+        "categoriesId": 3
+      },
+      {
+        "id": 7,
+        "name": "Kakashi Nenderoid - Naruto",
+        "price": 750,
+        "img": "./assets/img/04.jpg",
+        "description": "The third in the Naruto Nendoroid series - the \"Copy Ninja\" Kakashi!\n\nFrom the popular anime series 'Naruto Shippuden' comes a rerelease of the Nendoroid of Kakashi Hatake! He comes with three face plates as well as two different forehead protectors to either cover up or reveal his left eye allowing for all sorts of different posing options!\n\nA variety of optional parts are also included, such as Lightning Blade effect parts for action scenes as well as more playful parts such as the 'Make-Out Paradise' book and other books in the series!",
+        "categoriesId": 2
+      },
+      {
+        "id": 8,
+        "name": "Kazuma Figma - Konosuba God's Blessing On This Wonderful World",
+        "price": 1400,
+        "img": "./assets/img/08.jpg",
+        "description": "\"Farewell boring life! Hello fantasy world!\"\n\nFrom the movie \"KONO SUBARASHII SEKAI NI SYUKUFUKU WO! LEGEND OF CRIMSON\" comes a figma of Kazuma!",
+        "categoriesId": 1
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Figuras Articulables",
+        "img": "./assets/img/08.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Nenderoids",
+        "img": "./assets/img/03.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Figuras PVC",
+        "img": "./assets/img/05.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Pre-Order",
+        "img": "./assets/img/01.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Banpresto",
+        "img": "./assets/img/06.jpg"
+      }
+    ]
+  }

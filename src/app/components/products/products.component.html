@@ -1,0 +1,3 @@
+<div *ngFor="let product of products">
+    <app-card [product]="product" (click)="showProduct(product.id)"></app-card>
+</div>

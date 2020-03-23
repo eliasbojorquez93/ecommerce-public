@@ -1,0 +1,21 @@
+<div *ngIf="product" class="product-container p-50 animated fadeIn fast" fxLayout="row" fxLayoutAlign="start stretch">
+  <div class="imgs mr-50 sb">
+    <img [src]="product.img" [alt]="product.name">
+  </div>
+
+  <div class="description-container">
+      <h2>{{ product.name }}</h2>
+      <div class="price pb-20">{{ product.price | currency }}</div>
+      <div class="quantity pt-20 pb-20" fxLayout="row" fxLayoutAlign="start stretch">
+        <app-select></app-select>
+        <app-button-add></app-button-add>
+      </div>
+      <h3>Descripción</h3>
+      <div class="description">
+        {{ product.description }}
+      </div>
+    </div>
+</div>
+<div class="container popular-container">
+  <app-popular [limitTo]="4"></app-popular>
+</div>

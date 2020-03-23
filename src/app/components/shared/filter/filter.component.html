@@ -1,0 +1,19 @@
+<div class="main-filter mr-50 pb-20">
+  <h2 class="title">Figuras</h2>
+  <hr>
+  <div class="filter">
+      <p class="label">Categorias</p>
+      <ul *ngFor="let item of [1,2,3,4]; let i = index" class="p-0 ml-10">
+        <li>Categoria {{ i+1 }}</li>
+      </ul>
+    </div>
+  <div class="filter">
+    <p class="label">Precio</p>
+    <form [formGroup]="priceFilterForm" (keyup.enter)="onSubmit()">
+      <div class="input-group-row" fxLayout="row" fxLayoutAlign="space-between center">
+        <input type="text" formControlName="min" placeholder="$0.00" class="sb">-
+        <input type="text" formControlName="max" placeholder="$1,500.00" class="sb">
+      </div>
+    </form>
+  </div>
+</div>

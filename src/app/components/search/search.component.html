@@ -1,0 +1,9 @@
+<div class="container">
+    <div fxLayout="row" fxLayoutAlign="space-between stretch">
+        <app-filter></app-filter>
+        <div class="products animated fadeIn fast" fxFlex="grow">
+            <h2 class="title">Resultados: <small>{{ searchText }}</small></h2>
+            <app-products [products]="products" fxLayout="row wrap" fxLayoutAlign="space-between center"></app-products>
+        </div>
+    </div>
+</div>

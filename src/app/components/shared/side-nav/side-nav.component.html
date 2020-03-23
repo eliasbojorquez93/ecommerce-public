@@ -1,0 +1,15 @@
+<div class="side-nav-container sb" [class.active]="isOpen">
+  <div class="side-nav" fxLayout="row" fxLayoutAlign="space-between stretch">
+    <div
+      *ngFor="let category of categories"
+      [style.background]="'url('+category.img+')'"
+      [style.backgroundPosition]="'center top'"
+      [style.backgroundSize]="'150% auto'"
+      class="header"
+      fxFlex="grow"
+      [routerLink]="['/products', category.name, category.id]"
+      (click)="close()">
+      <h5>{{ category.name }}</h5>
+    </div>
+  </div>
+</div>

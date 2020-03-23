@@ -1,0 +1,46 @@
+.side-nav-container{
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.side-nav-container.active{
+    height: 200px;
+}
+
+.side-nav{
+    margin: auto;
+    height: 100%;
+}
+.side-nav>.header{
+    position: relative !important;
+    padding: 20px;
+    cursor: pointer;
+}
+.side-nav>.header:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.side-nav>.header>h5{
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    outline: none;
+}
+.side-nav>.header>h5:before{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #FE6F61;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+}

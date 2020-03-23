@@ -1,0 +1,10 @@
+<ng-template #searcher>
+  <div class="searcher p-20 sb" (click)="preventDefaultSearch($event)">
+    <h3>Buscar</h3>
+    <input type="text" placeholder="Buscar aquí" class="input-overlay-search" (keyup.enter)="search(buscar.value);close()" #buscar>
+  </div>
+</ng-template>
+
+<div (click)="close()" *ngIf="showOverlay">
+  <app-overlay [templateRefExp]="searcher"></app-overlay>
+</div>
